@@ -27,6 +27,14 @@ ul {
     padding-right: 20px;
 }
 
+.dark {
+    padding: 15px; 
+    background: #545454;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Header */
 header {
     background: #545454;
@@ -130,6 +138,36 @@ a:hover {
 
 #boxes i {
     font-size: 80px;
+}
+
+/* Sidebar */
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+/* main-col */
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/* Memberships */
+
+ul#memberships li {
+    list-style: none;
+    padding: 20px;
+    border: gray solid 1px;
+    margin-bottom: 5px;
+    background: #b0b0b0;
 }
 
 /* Footer */
