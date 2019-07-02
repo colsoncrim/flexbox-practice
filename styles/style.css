@@ -1,0 +1,62 @@
+body {
+    font-family: font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #545454;
+    color: white;
+    min-height: 70px;
+    border-bottom: #7ed957 3px solid;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #company-logo {
+    float: left;
+}
+
+header #company-logo h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 45px;
+}
+
+a:hover {
+    color: #7ed957;
+}
+
+#company-logo img {
+    width: 100px;
+}
